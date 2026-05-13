@@ -179,3 +179,16 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Swift / Xcode
+.build/
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+.swiftpm/
+*.swp
+*~
+.DS_Store
